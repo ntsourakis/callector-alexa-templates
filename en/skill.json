@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open MY_APP_NAME",
+            "MY_SAMPLE_PHRASE_1",
+            "MY_SAMPLE_PHRASE_2"
+          ],
+          "name": "MY_APP_NAME",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py",
+          "uri": "ask-custom-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
